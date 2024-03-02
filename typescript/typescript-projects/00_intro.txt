@@ -1,0 +1,16 @@
+Commands 
+
+1. to initialize tsconfig.json
+=> tsc --init
+
+2. to setup a node project
+=> npm --init -y
+
+3. to have files compiled in the outDir mentioned in the tsconfig.json use (tsc in watch mode will monitor the changes made in the ts files)
+=> tsc -w 
+
+
+Changes in the tsconfig file
+
+1. outDir: "./dist" => {output directory is the file where the typescript files will be transpiled to the javascript files}
+tsc
